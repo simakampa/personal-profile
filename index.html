@@ -7,142 +7,272 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- NAV is now OUTSIDE header so it spans full width -->
-<nav>
-    <ul>
-        <li><a href="#home">Levyson</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Art Projects</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="https://www.facebook.com/profile.php?id=100083140621919" target="_blank">Facebook</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
 <header id="home">
+    
     <h1 class="main-title">LEVYSON SIMAKAMPA</h1>
-    <div class="flex-container">
-        <img src="images/Untitled236_20231018175436.png" alt="Levyson Simakampa">
 
-        <div class="text-container">
-            <!-- Fixed: was <h1>skills</h1>, now a proper greeting -->
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Levyson</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Art Projects</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100083140621919" target="_blank">Facebook</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <figure class="flex-container">
+        <img src="images/levyson.jpeg" alt="Photo of Levyson Simakampa" width="200" height="200">
+
+        <figcaption class="text-container">
             <h2>Hi, I'm Levyson 👋</h2>
             <p><strong>Artist</strong> | Software Developer | Tech Enthusiast | Problem Solver</p>
-            <a href="https://www.facebook.com/profile.php?id=100083140621919" target="_blank" class="cta-button">Connect on Facebook</a>
-            <a href="#projects" class="cta-button secondary">View My Art Work</a>
-        </div>
-    </div>
+            <p>Levyson Simakampa — Year 3 CS Student</p>
+
+            <a href="https://www.facebook.com/profile.php?id=100083140621919" target="_blank" class="cta-button">
+                Connect on Facebook
+            </a>
+
+            <a href="#projects" class="cta-button secondary">
+                View My Art Work
+            </a>
+        </figcaption>
+    </figure>
+
 </header>
 
+<main>
 
-<section id="about">
-    <div class="flex-container">
-        <img src="images/WhatsApp Image 2026-04-09 at 13.24.24.jpeg" alt="Balance of opposites in life" height="400px" width="auto">
+    
+    <article id="about">
 
-        <div class="text-container">
-            <h2>About Me</h2>
-            <p>I'm a passionate artist and software developer with a love for creating innovative solutions. With a background in both art and technology, I bring a unique perspective to my work. Whether I'm coding a new application or sketching out a design, I thrive on the challenge of problem-solving and the joy of bringing ideas to life.</p>
+        <section>
+            <div class="flex-container">
+
+                <img src="images/WhatsApp Image 2026-04-09 at 13.24.24.jpeg"
+                     alt="Balance of opposites in life"
+                     width="400"
+                     height="400">
+
+                <div class="text-container">
+                    <h2>About Me</h2>
+
+                    <p>
+                        I am a passionate artist, software developer, and Computer Science student
+                        at The Copperbelt University. I enjoy combining creativity with technology
+                        to build useful and beautiful solutions.
+                    </p>
+
+                    <p>
+                        Whether I am coding an application or creating artwork, I enjoy solving
+                        problems and learning new skills. I believe discipline, creativity, and
+                        consistency are important for growth.
+                    </p>
+
+                    
+                    <h3>My Hobbies and Interests</h3>
+                    <ul>
+                        <li>Drawing and digital art</li>
+                        <li>Programming</li>
+                        <li>Reading technology content</li>
+                        <li>Learning new skills</li>
+                        <li>Problem solving</li>
+                    </ul>
+
+                    
+                    <h3>Top Academic Courses</h3>
+                    <ol>
+                        <li>Programming Fundamentals</li>
+                        <li>Web Development</li>
+                        <li>Database Systems</li>
+                    </ol>
+
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="skills-section" id="skills">
+            <h2>Technical Skills</h2>
+
+            <div class="skill">
+                <p>C++</p>
+                <div class="skill-bar"><div style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Python</p>
+                <div class="skill-bar"><div style="width: 70%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Java</p>
+                <div class="skill-bar"><div style="width: 75%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>HTML5</p>
+                <div class="skill-bar"><div style="width: 85%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>CSS</p>
+                <div class="skill-bar"><div style="width: 80%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="skill-bar"><div style="width: 50%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Flask</p>
+                <div class="skill-bar"><div style="width: 60%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Dash</p>
+                <div class="skill-bar"><div style="width: 60%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>SQLite</p>
+                <div class="skill-bar"><div style="width: 50%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>Git &amp; GitHub</p>
+                <div class="skill-bar"><div style="width: 40%;"></div></div>
+            </div>
+
+        </section>
+
+        
+        <section id="projects">
+            <h2>My <strong>ART</strong> Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/Untitled106_20230105120650.png" alt="Artwork 1">
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/Untitled179_20230709201740.png" alt="Artwork 2">
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/Untitled179_20230709204932.png" alt="Artwork 3">
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/Untitled215_20230903230339.png" alt="Artwork 4">
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/Untitled236_20231028170512.png" alt="Artwork 5">
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/Untitled241_20231101213933.png" alt="Artwork 6">
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/Untitled255_20240107141422.png" alt="Artwork 7">
+                </div>
+            </div>
+
+            <a href="https://www.facebook.com/profile.php?id=100083140621919" target="_blank" class="cta-button">
+                View More on Facebook
+            </a>
+        </section>
+
+        
+        <section id="faq">
+            <h2>Common Questions</h2>
+
+            <details>
+                <summary>Who is Levyson Simakampa?</summary>
+                <p>I'm a passionate artist and software developer with a love for creating innovative solutions.</p>
+            </details>
+
+            <details>
+                <summary>What type of art do you create?</summary>
+                <p>I create digital and traditional artworks including illustrations and paintings.</p>
+            </details>
+
+            <details>
+                <summary>What programming languages do you specialize in?</summary>
+                <p>I primarily work with C++, Python, Flask, Dash, HTML, CSS, and JavaScript.</p>
+            </details>
+
+            <details>
+                <summary>Can I collaborate with you on a project?</summary>
+                <p>Absolutely! I am open to collaborations in art and technology.</p>
+            </details>
+
+            <details>
+                <summary>Can I commission custom artwork?</summary>
+                <p>Yes! You can contact me through Facebook or the contact section below.</p>
+            </details>
+
+        </section>
+
+    </article>
+
+    
+    <aside>
+
+        <h2>Contact &amp; Links</h2>
+
+        <p><a href="https://github.com/" target="_blank">GitHub</a></p>
+
+        <p><a href="https://linkedin.com/" target="_blank">LinkedIn</a></p>
+
+        <p><a href="mailto:simakampalevyson@example.com">CBU Email</a></p>
+
+        <dl>
+            <dt>Department</dt>
+            <dd>School of Information Communication and Technology</dd>
+
+            <dt>Year</dt>
+            <dd>Year 3</dd>
+
+            <dt>Programme</dt>
+            <dd>Computer Science</dd>
+        </dl>
+
+    </aside>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out — I'd love to hear from you!</p>
+
+        <div class="contact-links">
+            <a href="tel:+260967751421" class="cta-button">📞 Call: 0967751421</a>
+
+            <a href="mailto:simakampalevyson@example.com" class="cta-button secondary">
+                ✉️ Email Me
+            </a>
         </div>
-    </div>
-</section>
+    </section>
 
-
-<!-- Fixed: renamed class from "skill" to "skills-section" to avoid conflict with skill row class -->
-<section class="skills-section" id="skills">
-    <h2>My Skills</h2>
-
-    <div class="skill">
-        <p>C++</p>
-        <div class="skill-bar"><div style="width: 90%;"></div></div>
-    </div>
-    <div class="skill">
-        <p>Python</p>
-        <div class="skill-bar"><div style="width: 80%;"></div></div>
-    </div>
-    <div class="skill">
-        <p>Web Development</p>
-        <div class="skill-bar"><div style="width: 85%;"></div></div>
-    </div>
-</section>
-
-
-<section id="projects">
-    <h2>My <strong>ART</strong> Projects</h2>
-    <p>Here are some of the projects I've worked on:</p>
-
-    <div class="grid-container">
-        <div class="grid-item">
-            <img src="images/Untitled106_20230105120650.png" alt="Artwork 1">
-        </div>
-        <div class="grid-item">
-            <img src="images/Untitled179_20230709201740.png" alt="Artwork 2">
-        </div>
-        <div class="grid-item">
-            <img src="images/Untitled179_20230709204932.png" alt="Artwork 3">
-        </div>
-        <div class="grid-item">
-            <img src="images/Untitled215_20230903230339.png" alt="Artwork 4">
-        </div>
-        <div class="grid-item">
-            <img src="images/Untitled236_20231028170512.png" alt="Artwork 5">
-        </div>
-        <div class="grid-item">
-            <img src="images/Untitled241_20231101213933.png" alt="Artwork 6">
-        </div>
-    </div>
-
-    <a href="https://www.facebook.com/profile.php?id=100083140621919" target="_blank" class="cta-button">
-        View More on Facebook
-    </a>
-</section>
-
-
-<section id="faq">
-    <h2>Common Questions</h2>
-
-    <details>
-        <summary>Who is Levyson Simakampa?</summary>
-        <p>I'm a passionate artist and software developer with a love for creating innovative solutions. I combine art and technology to bring ideas to life.</p>
-    </details>
-    <details>
-        <summary>What type of art do you create?</summary>
-        <p>I create digital and traditional artworks, including illustrations, paintings, and mixed media pieces that explore creativity and storytelling.</p>
-    </details>
-    <details>
-        <summary>What programming languages do you specialize in?</summary>
-        <p>I primarily work with C++, Python, and web development technologies like HTML, CSS, and JavaScript.</p>
-    </details>
-    <details>
-        <summary>Can I collaborate with you on a project?</summary>
-        <p>Absolutely! I'm open to collaborations that align with art, technology, or creative development projects.</p>
-    </details>
-    <details>
-        <summary>Can I commission custom artwork?</summary>
-        <p>Yes! I accept custom art projects. You can contact me via my Facebook profile or through the contact section on this page.</p>
-    </details>
-</section>
-
-
-<!-- Contact is now its own section, not hidden in a details element -->
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out — I'd love to hear from you!</p>
-    <div class="contact-links">
-        <a href="tel:+260967751421" class="cta-button">📞 Call: 0967751421</a>
-        <a href="mailto:simakampalevyson@example.com" class="cta-button secondary">✉️ Email Me</a>
-    </div>
-</section>
-
+</main>
 
 <footer class="site-footer">
     <div class="footer-content">
         <p>&copy; 2026 Levyson Simakampa. All rights reserved.</p>
+        <p>Email: simakampalevyson@example.com</p>
+
         <div class="social-links">
             <a href="https://www.facebook.com/profile.php?id=100083140621919" target="_blank">Facebook</a>
             <a href="#contact">Contact</a>
